@@ -1,0 +1,996 @@
+@charset "UTF-8";
+body, ul, li, p, span, a {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-family: "微软雅黑"; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.lou {
+  background: #f6f6f6; }
+  .lou .lou-1 {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 20px; }
+
+.louc {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 55px;
+  margin-bottom: 20px;
+  background: url(../img/11.png) repeat-x 0 25px; }
+
+.louc h3 {
+  display: inline;
+  padding: 0 50px;
+  background-color: #f6f6f6;
+  font-weight: 400;
+  font-size: 26px;
+  color: #333; }
+
+.louc-1 {
+  width: 1200px;
+  height: 270px; }
+  .louc-1 ul > li {
+    width: 390px;
+    height: 250px;
+    background: #FFFFFF;
+    float: left;
+    margin: 0 10px 20px 0; }
+    .louc-1 ul > li .louc-2 {
+      height: 190px; }
+    .louc-1 ul > li img {
+      float: left;
+      width: 150px;
+      height: 150px; }
+    .louc-1 ul > li .ri {
+      float: left;
+      margin: 45px 10px 10px 20px; }
+      .louc-1 ul > li .ri a {
+        display: block;
+        color: #333;
+        width: 158px;
+        height: 36px;
+        overflow: hidden;
+        margin-bottom: 30px;
+        line-height: 18px; }
+      .louc-1 ul > li .ri p {
+        display: inline-block;
+        background: #fff5ea;
+        color: #ffa133;
+        padding: 0 15px; }
+
+.louc-top {
+  float: left;
+  padding-left: 29px;
+  width: 206px;
+  height: 60px;
+  background: #f75f3c; }
+  .louc-top p, .louc-top span {
+    padding-top: 20px;
+    font-size: 16px;
+    color: #fff; }
+
+.louc-t a {
+  display: block;
+  float: right;
+  width: 155px;
+  height: 60px;
+  background: url(../img/gw.jpg) 18px center no-repeat #ffa133;
+  text-align: center; }
+  .louc-t a span {
+    display: block;
+    font-size: 16px;
+    line-height: 60px;
+    color: #fff; }
+
+.loutop li {
+  float: left;
+  background: #FFFFFF;
+  width: 164px;
+  height: 250px;
+  text-align: center;
+  padding: 0 14px 0 19px;
+  margin-top: 10px;
+  border-right: 1px solid #e6e6e6; }
+
+.loutop li:hover {
+  box-shadow: 0 0 50px #ccc;
+  border: 1px solid #c8c8c8; }
+
+.loutop li .imgs {
+  width: 130px;
+  height: 130px;
+  margin: 17px 0; }
+
+.loutop li .imgs:hover {
+  transition: 1s;
+  animation: move 0.1s 3; }
+
+.loutop li a p:hover {
+  color: red; }
+
+@keyframes move {
+  from {
+    transform: translateY(-10px); }
+  to {
+    transform: translateY(10px); } }
+
+.loutop li p {
+  width: 164px;
+  height: 36px;
+  font-size: 13px;
+  overflow: hidden;
+  color: #333;
+  margin-bottom: 10px; }
+
+.loutop .more {
+  position: relative; }
+  .loutop .more img {
+    position: absolute; }
+
+.loutop span {
+  float: left;
+  width: 95px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ff002f; }
+
+.loutop p del {
+  display: inline-block;
+  color: #999; }
+
+/*品牌楼*/
+.lou1 a {
+  float: left; }
+
+.lou1 ul li {
+  float: left;
+  margin: 0 0 10px 10px; }
+
+.loutop1 ul li {
+  float: left;
+  margin: 0 10px 0 0; }
+
+.loutop1 .pinpai {
+  float: left;
+  margin-left: -20px;
+  position: relative; }
+  .loutop1 .pinpai img {
+    position: absolute; }
+
+.lou1 img:hover {
+  transition: 1s;
+  animation: move 0.1s 3; }
+
+.loutop1 img:hover {
+  transition: 1s;
+  animation: move 0.1s 3; }
+
+@keyframes move {
+  from {
+    transform: translateY(-10px); }
+  to {
+    transform: translateY(10px); } }
+
+/*加入购物车动画*/
+.lou-1 li:hover .xs {
+  display: none; }
+
+.lou-1 li:hover .gwc {
+  bottom: 0; }
+
+.lei a:hover {
+  color: red; }
+
+.lei {
+  width: 190px;
+  height: 164px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0;
+  padding: 20px 0 0 0; }
+  .lei a {
+    float: left;
+    width: 73px;
+    height: 24px;
+    margin: 0 10px 8px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background: rgba(242, 242, 242, 0.2);
+    overflow: hidden; }
+
+.lou-1 .gwc {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -60px;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  background: url(../img/gw.jpg) 45px center no-repeat #ffa133;
+  -webkit-transition: bottom .25s ease;
+  -moz-transition: bottom .25s ease;
+  transition: bottom .25s ease;
+  margin: 0; }
+
+/*零食楼*/
+.lou2 {
+  width: 190px;
+  height: 480px;
+  float: left;
+  position: relative; }
+  .lou2 a img {
+    width: 190px;
+    height: 480px; }
+
+.loutop2 {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  float: left;
+  overflow: hidden; }
+  .loutop2 ul li {
+    position: relative;
+    width: 169px;
+    height: 233px;
+    padding: 10px 15px 0;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    overflow: hidden; }
+    .loutop2 ul li a {
+      display: block;
+      margin: 0 auto 10px;
+      width: 140px;
+      height: 140px;
+      text-align: center; }
+      .loutop2 ul li a img {
+        width: 130px;
+        height: 130px; }
+    .loutop2 ul li p {
+      margin-bottom: 7px;
+      height: 36px;
+      -webkit-line-clamp: 2;
+      font-size: 12px;
+      color: #333;
+      overflow: hidden;
+      line-height: 18px; }
+    .loutop2 ul li span {
+      font-size: 14px;
+      color: #ff002f; }
+
+/*奶制品*/
+.lou3 {
+  width: 190px;
+  height: 480px;
+  float: left;
+  position: relative; }
+  .lou3 a img {
+    width: 190px;
+    height: 480px; }
+
+.loutop3 {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  float: left;
+  overflow: hidden; }
+  .loutop3 ul li {
+    position: relative;
+    width: 169px;
+    height: 233px;
+    padding: 10px 15px 0;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    overflow: hidden; }
+    .loutop3 ul li a {
+      display: block;
+      margin: 0 auto 10px;
+      width: 140px;
+      height: 140px;
+      text-align: center; }
+      .loutop3 ul li a img {
+        width: 130px;
+        height: 130px; }
+    .loutop3 ul li p {
+      margin-bottom: 7px;
+      height: 36px;
+      -webkit-line-clamp: 2;
+      font-size: 12px;
+      color: #333;
+      overflow: hidden;
+      line-height: 18px; }
+    .loutop3 ul li span {
+      font-size: 14px;
+      color: #ff002f; }
+
+.lou4 {
+  width: 190px;
+  height: 480px;
+  float: left;
+  position: relative; }
+  .lou4 a img {
+    width: 190px;
+    height: 480px; }
+
+.loutop4 {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  float: left;
+  overflow: hidden; }
+  .loutop4 ul li {
+    position: relative;
+    width: 169px;
+    height: 233px;
+    padding: 10px 15px 0;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    overflow: hidden; }
+    .loutop4 ul li a {
+      display: block;
+      margin: 0 auto 10px;
+      width: 140px;
+      height: 140px;
+      text-align: center; }
+      .loutop4 ul li a img {
+        width: 130px;
+        height: 130px; }
+    .loutop4 ul li p {
+      margin-bottom: 7px;
+      height: 36px;
+      -webkit-line-clamp: 2;
+      font-size: 12px;
+      color: #333;
+      overflow: hidden;
+      line-height: 18px; }
+    .loutop4 ul li span {
+      font-size: 14px;
+      color: #ff002f; }
+
+.lou5 {
+  width: 190px;
+  height: 480px;
+  float: left;
+  position: relative; }
+  .lou5 a img {
+    width: 190px;
+    height: 480px; }
+
+.loutop5 {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  float: left;
+  overflow: hidden; }
+  .loutop5 ul li {
+    position: relative;
+    width: 169px;
+    height: 233px;
+    padding: 10px 15px 0;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    overflow: hidden; }
+    .loutop5 ul li a {
+      display: block;
+      margin: 0 auto 10px;
+      width: 140px;
+      height: 140px;
+      text-align: center; }
+      .loutop5 ul li a img {
+        width: 130px;
+        height: 130px; }
+    .loutop5 ul li p {
+      margin-bottom: 7px;
+      height: 36px;
+      -webkit-line-clamp: 2;
+      font-size: 12px;
+      color: #333;
+      overflow: hidden;
+      line-height: 18px; }
+    .loutop5 ul li span {
+      font-size: 14px;
+      color: #ff002f; }
+
+.lou6 {
+  width: 190px;
+  height: 480px;
+  float: left;
+  position: relative; }
+  .lou6 a img {
+    width: 190px;
+    height: 480px; }
+
+.loutop6 {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  float: left;
+  overflow: hidden; }
+  .loutop6 ul li {
+    position: relative;
+    width: 169px;
+    height: 233px;
+    padding: 10px 15px 0;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    overflow: hidden; }
+    .loutop6 ul li a {
+      display: block;
+      margin: 0 auto 10px;
+      width: 140px;
+      height: 140px;
+      text-align: center; }
+      .loutop6 ul li a img {
+        width: 130px;
+        height: 130px; }
+    .loutop6 ul li p {
+      margin-bottom: 7px;
+      height: 36px;
+      -webkit-line-clamp: 2;
+      font-size: 12px;
+      color: #333;
+      overflow: hidden;
+      line-height: 18px; }
+    .loutop6 ul li span {
+      font-size: 14px;
+      color: #ff002f; }
+
+.lou7 {
+  width: 190px;
+  height: 480px;
+  float: left;
+  position: relative; }
+  .lou7 a img {
+    width: 190px;
+    height: 480px; }
+
+.loutop7 {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  float: left;
+  overflow: hidden; }
+  .loutop7 ul li {
+    position: relative;
+    width: 169px;
+    height: 233px;
+    padding: 10px 15px 0;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    overflow: hidden; }
+    .loutop7 ul li a {
+      display: block;
+      margin: 0 auto 10px;
+      width: 140px;
+      height: 140px;
+      text-align: center; }
+      .loutop7 ul li a img {
+        width: 130px;
+        height: 130px; }
+    .loutop7 ul li p {
+      margin-bottom: 7px;
+      height: 36px;
+      -webkit-line-clamp: 2;
+      font-size: 12px;
+      color: #333;
+      overflow: hidden;
+      line-height: 18px; }
+    .loutop7 ul li span {
+      font-size: 14px;
+      color: #ff002f; }
+
+.lou8 {
+  width: 190px;
+  height: 480px;
+  float: left;
+  position: relative; }
+  .lou8 a img {
+    width: 190px;
+    height: 480px; }
+
+.loutop8 {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  float: left;
+  overflow: hidden; }
+  .loutop8 ul li {
+    position: relative;
+    width: 169px;
+    height: 233px;
+    padding: 10px 15px 0;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    overflow: hidden; }
+    .loutop8 ul li a {
+      display: block;
+      margin: 0 auto 10px;
+      width: 140px;
+      height: 140px;
+      text-align: center; }
+      .loutop8 ul li a img {
+        width: 130px;
+        height: 130px; }
+    .loutop8 ul li p {
+      margin-bottom: 7px;
+      height: 36px;
+      -webkit-line-clamp: 2;
+      font-size: 12px;
+      color: #333;
+      overflow: hidden;
+      line-height: 18px; }
+    .loutop8 ul li span {
+      font-size: 14px;
+      color: #ff002f; }
+
+.lou9 {
+  width: 190px;
+  height: 480px;
+  float: left;
+  position: relative; }
+  .lou9 a img {
+    width: 190px;
+    height: 480px; }
+
+.loutop9 {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  float: left;
+  overflow: hidden; }
+  .loutop9 ul li {
+    position: relative;
+    width: 169px;
+    height: 233px;
+    padding: 10px 15px 0;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    overflow: hidden; }
+    .loutop9 ul li a {
+      display: block;
+      margin: 0 auto 10px;
+      width: 140px;
+      height: 140px;
+      text-align: center; }
+      .loutop9 ul li a img {
+        width: 130px;
+        height: 130px; }
+    .loutop9 ul li p {
+      margin-bottom: 7px;
+      height: 36px;
+      -webkit-line-clamp: 2;
+      font-size: 12px;
+      color: #333;
+      overflow: hidden;
+      line-height: 18px; }
+    .loutop9 ul li span {
+      font-size: 14px;
+      color: #ff002f; }
+
+.lou10 {
+  width: 190px;
+  height: 480px;
+  float: left;
+  position: relative; }
+  .lou10 a img {
+    width: 190px;
+    height: 480px; }
+
+.loutop10 {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  float: left;
+  overflow: hidden; }
+  .loutop10 ul li {
+    position: relative;
+    width: 169px;
+    height: 233px;
+    padding: 10px 15px 0;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    overflow: hidden; }
+    .loutop10 ul li a {
+      display: block;
+      margin: 0 auto 10px;
+      width: 140px;
+      height: 140px;
+      text-align: center; }
+      .loutop10 ul li a img {
+        width: 130px;
+        height: 130px; }
+    .loutop10 ul li p {
+      margin-bottom: 7px;
+      height: 36px;
+      -webkit-line-clamp: 2;
+      font-size: 12px;
+      color: #333;
+      overflow: hidden;
+      line-height: 18px; }
+    .loutop10 ul li span {
+      font-size: 14px;
+      color: #ff002f; }
+
+.lou11 {
+  width: 190px;
+  height: 480px;
+  float: left;
+  position: relative; }
+  .lou11 a img {
+    width: 190px;
+    height: 480px; }
+
+.loutop11 {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  float: left;
+  overflow: hidden; }
+  .loutop11 ul li {
+    position: relative;
+    width: 169px;
+    height: 233px;
+    padding: 10px 15px 0;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    overflow: hidden; }
+    .loutop11 ul li a {
+      display: block;
+      margin: 0 auto 10px;
+      width: 140px;
+      height: 140px;
+      text-align: center; }
+      .loutop11 ul li a img {
+        width: 130px;
+        height: 130px; }
+    .loutop11 ul li p {
+      margin-bottom: 7px;
+      height: 36px;
+      -webkit-line-clamp: 2;
+      font-size: 12px;
+      color: #333;
+      overflow: hidden;
+      line-height: 18px; }
+    .loutop11 ul li span {
+      font-size: 14px;
+      color: #ff002f; }
+
+.lou12 {
+  width: 190px;
+  height: 480px;
+  float: left;
+  position: relative; }
+  .lou12 a img {
+    width: 190px;
+    height: 480px; }
+
+.loutop12 {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  float: left;
+  overflow: hidden; }
+  .loutop12 ul li {
+    position: relative;
+    width: 169px;
+    height: 233px;
+    padding: 10px 15px 0;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    overflow: hidden; }
+    .loutop12 ul li a {
+      display: block;
+      margin: 0 auto 10px;
+      width: 140px;
+      height: 140px;
+      text-align: center; }
+      .loutop12 ul li a img {
+        width: 130px;
+        height: 130px; }
+    .loutop12 ul li p {
+      margin-bottom: 7px;
+      height: 36px;
+      -webkit-line-clamp: 2;
+      font-size: 12px;
+      color: #333;
+      overflow: hidden;
+      line-height: 18px; }
+    .loutop12 ul li span {
+      font-size: 14px;
+      color: #ff002f; }
+
+.lou13 {
+  width: 190px;
+  height: 480px;
+  float: left;
+  position: relative; }
+  .lou13 a img {
+    width: 190px;
+    height: 480px; }
+
+.loutop13 {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  float: left;
+  overflow: hidden; }
+  .loutop13 ul li {
+    position: relative;
+    width: 169px;
+    height: 233px;
+    padding: 10px 15px 0;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    overflow: hidden; }
+    .loutop13 ul li a {
+      display: block;
+      margin: 0 auto 10px;
+      width: 140px;
+      height: 140px;
+      text-align: center; }
+      .loutop13 ul li a img {
+        width: 130px;
+        height: 130px; }
+    .loutop13 ul li p {
+      margin-bottom: 7px;
+      height: 36px;
+      -webkit-line-clamp: 2;
+      font-size: 12px;
+      color: #333;
+      overflow: hidden;
+      line-height: 18px; }
+    .loutop13 ul li span {
+      font-size: 14px;
+      color: #ff002f; }
+
+.lou14 {
+  width: 190px;
+  height: 480px;
+  float: left;
+  position: relative; }
+  .lou14 a img {
+    width: 190px;
+    height: 480px; }
+
+.loutop14 {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  float: left;
+  overflow: hidden; }
+  .loutop14 ul li {
+    position: relative;
+    width: 169px;
+    height: 233px;
+    padding: 10px 15px 0;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    overflow: hidden; }
+    .loutop14 ul li a {
+      display: block;
+      margin: 0 auto 10px;
+      width: 140px;
+      height: 140px;
+      text-align: center; }
+      .loutop14 ul li a img {
+        width: 130px;
+        height: 130px; }
+    .loutop14 ul li p {
+      margin-bottom: 7px;
+      height: 36px;
+      -webkit-line-clamp: 2;
+      font-size: 12px;
+      color: #333;
+      overflow: hidden;
+      line-height: 18px; }
+    .loutop14 ul li span {
+      font-size: 14px;
+      color: #ff002f; }
+
+.lou15 {
+  width: 190px;
+  height: 480px;
+  float: left;
+  position: relative; }
+  .lou15 a img {
+    width: 190px;
+    height: 480px; }
+
+.loutop15 {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  float: left;
+  overflow: hidden; }
+  .loutop15 ul li {
+    position: relative;
+    width: 169px;
+    height: 233px;
+    padding: 10px 15px 0;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    overflow: hidden; }
+    .loutop15 ul li a {
+      display: block;
+      margin: 0 auto 10px;
+      width: 140px;
+      height: 140px;
+      text-align: center; }
+      .loutop15 ul li a img {
+        width: 130px;
+        height: 130px; }
+    .loutop15 ul li p {
+      margin-bottom: 7px;
+      height: 36px;
+      -webkit-line-clamp: 2;
+      font-size: 12px;
+      color: #333;
+      overflow: hidden;
+      line-height: 18px; }
+    .loutop15 ul li span {
+      font-size: 14px;
+      color: #ff002f; }
+
+.lou16 {
+  width: 190px;
+  height: 480px;
+  float: left;
+  position: relative; }
+  .lou16 a img {
+    width: 190px;
+    height: 480px; }
+
+.loutop16 {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  float: left;
+  overflow: hidden; }
+  .loutop16 ul li {
+    position: relative;
+    width: 169px;
+    height: 233px;
+    padding: 10px 15px 0;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    overflow: hidden; }
+    .loutop16 ul li a {
+      display: block;
+      margin: 0 auto 10px;
+      width: 140px;
+      height: 140px;
+      text-align: center; }
+      .loutop16 ul li a img {
+        width: 130px;
+        height: 130px; }
+    .loutop16 ul li p {
+      margin-bottom: 7px;
+      height: 36px;
+      -webkit-line-clamp: 2;
+      font-size: 12px;
+      color: #333;
+      overflow: hidden;
+      line-height: 18px; }
+    .loutop16 ul li span {
+      font-size: 14px;
+      color: #ff002f; }
+
+.lou17 {
+  width: 190px;
+  height: 480px;
+  float: left;
+  position: relative; }
+  .lou17 a img {
+    width: 190px;
+    height: 480px; }
+
+.loutop17 {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  float: left;
+  overflow: hidden; }
+  .loutop17 ul li {
+    position: relative;
+    width: 169px;
+    height: 233px;
+    padding: 10px 15px 0;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    overflow: hidden; }
+    .loutop17 ul li a {
+      display: block;
+      margin: 0 auto 10px;
+      width: 140px;
+      height: 140px;
+      text-align: center; }
+      .loutop17 ul li a img {
+        width: 130px;
+        height: 130px; }
+    .loutop17 ul li p {
+      margin-bottom: 7px;
+      height: 36px;
+      -webkit-line-clamp: 2;
+      font-size: 12px;
+      color: #333;
+      overflow: hidden;
+      line-height: 18px; }
+    .loutop17 ul li span {
+      font-size: 14px;
+      color: #ff002f; }
+
+.lou18 {
+  width: 190px;
+  height: 480px;
+  float: left;
+  position: relative; }
+  .lou18 a img {
+    width: 190px;
+    height: 480px; }
+
+.loutop18 {
+  width: 1000px;
+  height: 480px;
+  background: #fff;
+  float: left;
+  overflow: hidden; }
+  .loutop18 ul li {
+    position: relative;
+    width: 169px;
+    height: 233px;
+    padding: 10px 15px 0;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    overflow: hidden; }
+    .loutop18 ul li a {
+      display: block;
+      margin: 0 auto 10px;
+      width: 140px;
+      height: 140px;
+      text-align: center; }
+      .loutop18 ul li a img {
+        width: 130px;
+        height: 130px; }
+    .loutop18 ul li p {
+      margin-bottom: 7px;
+      height: 36px;
+      -webkit-line-clamp: 2;
+      font-size: 12px;
+      color: #333;
+      overflow: hidden;
+      line-height: 18px; }
+    .loutop18 ul li span {
+      font-size: 14px;
+      color: #ff002f; }
